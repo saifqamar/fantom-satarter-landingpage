@@ -1,0 +1,14 @@
+.backimg {
+  background-image: url("./back\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: 180% 100%;
+  object-fit: cover;
+  margin-bottom: -100px;
+}
+
+/* @media screen and(max-width: 750px) { */
+  /* .backimg{
+    background-size: 200% 80%;
+    margin-bottom: -150px;
+  }
+} */

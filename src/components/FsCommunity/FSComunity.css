@@ -1,0 +1,379 @@
+.Comunitycontainer {
+  width: 100%;
+  height: 1020px;
+  background-image: url("./Group 98.jpg");
+  background-size: 100% 120%;
+  z-index: -111;
+  margin-top: -144px;
+  overflow: hidden;
+}
+
+.FSComunity {
+  width: 100%;
+  margin: auto;
+  color: white;
+  padding: 230px 0px 0px 0px;
+}
+
+.FSComunity h1 {
+  width: 72%;
+  max-width: 1038px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.FSComunity h1 {
+  font-size: 40px;
+  line-height: 49px;
+  font-weight: 500;
+}
+
+.FSComunity p {
+  width: 72%;
+  max-width: 1038px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.Comunitycards {
+  width: 72%;
+  max-width: 1038px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  column-gap: 16px;
+}
+
+.Comunitycard {
+  width: 247px;
+  min-width: 247px;
+  border: 3px solid #ffffff7d;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 24px -2px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.Comunitycard .img {
+  width: 100%;
+  height: 135px;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("/public/images/news-card.png");
+}
+
+.Comunitycard h1 {
+  width: 100%;
+  line-height: 39.52;
+  color: white;
+}
+
+.Comunitycard p {
+  width: 100%;
+  line-height: 39.52px;
+  color: white;
+}
+
+.ComunitycardBottom {
+  padding: 16px 16px 24px 16px;
+}
+
+.crd-heading {
+  width: 75%;
+}
+
+.ComunitycardBottom h1,
+.ComunitycardBottom p,
+.ComunitycardBottom span {
+  text-align: left;
+  margin: 0;
+}
+
+.ComunitycardBottom h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.ComunitycardBottom p,
+.ComunitycardBottom span {
+  font-size: 14px;
+  /* margin-top: 10px; */
+  color: white;
+}
+
+.ComunitycardBottom p {
+  line-height: 18.58px;
+}
+
+.ComunitycardBottom span {
+  font-weight: 400;
+}
+
+.fBton {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fBton .fbtn1 {
+  background: linear-gradient(134.5deg, #c25fff 2.88%, #3d29d0 98.85%);
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  /* width: 191px; */
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 4px 4px 4px 32px;
+  cursor: pointer;
+}
+
+.fBton .fbtn1:hover {
+  background: linear-gradient(
+    134.5deg,
+    rgba(194, 95, 255, 0.8) 2.88%,
+    rgba(61, 41, 208, 0.8) 98.85%
+  );
+}
+.fBton .fbtn1:active {
+  background: linear-gradient(134.5deg, #c25fff 2.88%, #3d29d0 98.85%);
+}
+.fBton .disabledBtn {
+  background: rgba(153, 160, 166, 0.8);
+  cursor: not-allowed;
+}
+.fBton .disabledBtn:hover {
+  background: rgba(153, 160, 166, 0.8);
+  cursor: not-allowed;
+}
+
+.fBton .fbtn1 button {
+  background: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  color: white;
+  cursor: inherit;
+}
+
+.fBton .fbtn1 .arrowicons {
+  border: none;
+  background: transparent;
+  width: 34px;
+  height: 34px;
+}
+.fbtn1 .arrowicons {
+  color: white;
+}
+
+@media only screen and (max-width: 1350px) {
+  .Comunitycards {
+    width: 78%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .Comunitycards {
+    width: 84%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .Comunitycards {
+    /* margin: 20px 0; */
+    width: 100%;
+    overflow-x: auto;
+    padding: 0 17px;
+  }
+  .Comunitycards::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .ComunitycardBottom h1 {
+    width: 100%;
+  }
+
+  .ComunitycardBottom p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .FSComunity p,
+  .FSComunity h1 {
+    width: 88%;
+  }
+
+  .ComunitycardBottom h1 {
+    width: 100%;
+  }
+
+  .ComunitycardBottom p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .FSComunity h1,
+  .FSComunity p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .Comunitycontainer {
+    height: 890px;
+    margin-top: 0px;
+  }
+
+  .FSComunity {
+    padding: 100px 0px 0px 0px;
+  }
+
+  .FSComunity .crd-heading {
+    width: 95%;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .FSComunity .crd-heading {
+    margin-bottom: 16px;
+  }
+
+  .FSComunity .crd-p {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .FSComunity p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .Comunitycards {
+    width: 72%;
+  }
+
+  .crd-p {
+    width: 72%;
+  }
+
+  .Comunitycard {
+    width: 100%;
+  }
+
+  .Comunitycard .img {
+    height: 145px;
+  }
+}
+
+/* @media only screen and (min-width: 1600px){
+  .Comunitycards{
+    width: 72%;
+  }
+
+  .Comunitycard {
+    width: 100%;
+  }
+
+  .Comunitycard .img{
+    height: 160px;
+  }
+
+  .ComunitycardBottom h1{
+    font-size: 36px;
+  }
+
+  .ComunitycardBottom p{
+    font-size: 17px;
+  }
+
+}
+
+@media only screen and (min-width: 1800px){
+  
+  .Comunitycards{
+    width: 72%;
+  }
+
+  .Comunitycard .img{
+    height: 180px;
+  }
+
+  .crd-p{
+    width: 72%;
+  }
+
+  .ComunitycardBottom h1{
+    font-size: 40px;
+  }
+
+  .ComunitycardBottom p{
+    font-size: 20px;
+  }
+
+  .fBton .fbtn1{
+    border-radius: 35px;
+    width: auto;
+  }
+
+  .fBton .fbtn1 button{
+    font-size: 14px;
+  }
+
+  .fBton .fbtn1 .arrowicons{
+    width: 34px;
+    height: 34px;
+  }
+}
+
+
+@media only screen and (min-width: 2000px){
+  .crd-heading{
+    font-size: 48px !important;
+  }
+
+  .crd-p{
+    font-size: 30px !important;
+    width: 60% !important;
+  }
+
+  .Comunitycards{
+    width: 72%;
+  }
+
+  .Comunitycard .img{
+    height: 200px;
+  }
+
+}
+
+
+@media only screen and (min-width: 2200px){
+  .Comunitycards{
+    width: 72%;
+  }
+
+} */

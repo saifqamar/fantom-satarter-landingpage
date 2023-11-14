@@ -1,0 +1,137 @@
+.privacyContainer {
+  margin: 0;
+  /* padding: 20px 0; */
+  font-family: JekoVariable, sans-serif;
+  background-color: rgb(252, 250, 250);
+}
+
+.privacyContentContainer {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 300px;
+}
+
+.privacyContentContainer > p {
+  margin: 20px 0;
+}
+
+.privacyContentContainer > h1 {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 32px 0;
+}
+
+.contentContainer > ol {
+  font-size: 32px;
+}
+
+.subContentPrivacy {
+  width: 80%;
+}
+
+.subContentPrivacy > h2 {
+  font-size: 32px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.subContentPrivacy div > p > h3 {
+  display: inline;
+  font-size: 14px;
+}
+
+.subContentPrivacy div > h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subContentPrivacy p {
+  color: rgb(76, 82, 91);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+
+.subContentPrivacy ol {
+  margin-left: 50px;
+}
+
+.subContentPrivacy > ol li {
+  list-style: lower-alpha;
+}
+
+.subContentPrivacy > ol li ol li {
+  list-style: lower-roman;
+}
+.subContentPrivacy .subContentPrivacy div ol li {
+  margin-bottom: 20px;
+}
+.subContentPrivacy div ol li h4,
+.subContentPrivacy div ol li p {
+  display: inline;
+  font-weight: 500;
+}
+
+.subContentPrivacy > ol li h4 {
+  font-weight: 500;
+}
+
+.subContentPrivacy > h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#marginLZero {
+  margin-left: 18px;
+}
+
+a {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+@media only screen and (max-width: 1200px) {
+  .subContentPrivacy {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .subContentPrivacy {
+    width: 100%;
+  }
+  .privacyContentContainer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 300px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .privacyContentContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .privacyContentContainer > h1 {
+    font-size: 36px;
+  }
+  .privacyContentContainer h2 {
+    font-size: 24px;
+  }
+  .subContentPrivacy div > p > h3 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .privacyContentContainer {
+    width: 90%;
+  }
+  .privacyContentContainer ol {
+    margin-left: 20px;
+  }
+}

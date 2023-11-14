@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+#preLoader {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

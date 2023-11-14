@@ -1,0 +1,542 @@
+.container {
+  width: 100%;
+  background-image: url("./Group 97.jpg");
+  background-size: 100% 100%;
+  z-index: -111;
+  margin-top: -150px;
+  margin-bottom: -290px;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.EasyAccessProjects {
+  width: 100%;
+  margin: 100px auto;
+  margin-bottom: 360px;
+  margin-top: 240px;
+}
+
+.EasyAccessProjects > h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.EasyAccessProjects > p {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.EasyAccessProjects h1 {
+  width: 72%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.EasyAccessProjects p {
+  width: 72%;
+  max-width: 1038px;
+  /* margin: auto; */
+  text-align: center;
+}
+
+.easy-p {
+  margin: auto;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.Ecards {
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  column-gap: 33px;
+}
+
+.Ecard {
+  width: 324px;
+  min-width: 240px;
+  border: 2px solid rgba(255, 255, 255, 0.505);
+  border-radius: 24px;
+  padding: 16px;
+  background: transparent;
+}
+
+.pad-card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.EcardTop {
+  position: relative;
+}
+.EcardTop .img > span {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  background-color: rgba(99, 96, 96, 0.747);
+  font-size: 14px;
+  color: white;
+  padding: 5px 10px 10px 10px;
+  border-radius: 0 0 20px 20px;
+  text-transform: uppercase;
+}
+
+.EcardTop .img {
+  width: 100%;
+  border-radius: 8px;
+  height: 142px;
+  overflow: hidden;
+}
+
+/* .EcardTop .img img{
+  width: 100%;
+} */
+
+.imgBottom {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.imgBottom img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  /* min-height: 64px; */
+  top: -45px;
+  left: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.socialLinks {
+  position: absolute;
+  top: 10px;
+  background-color: transparent;
+  list-style: none;
+  display: flex;
+}
+
+.socialLinks .icon {
+  background-color: transparent;
+  font-size: 16px;
+  margin-right: 5px;
+  width: 22px;
+  min-width: 20px;
+  height: 22px;
+  min-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+#globe {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+#globe:hover {
+  background-color: white;
+  color: black;
+}
+#twitter {
+  background-color: rgb(62, 62, 240);
+  border: 1px solid rgb(62, 62, 240);
+  color: white;
+}
+#twitter:hover {
+  background-color: white;
+  color: rgb(62, 62, 240);
+}
+#telegram {
+  background-color: rgb(19, 19, 233);
+  border: 1px solid rgb(19, 19, 233);
+  color: white;
+}
+#telegram:hover {
+  background-color: white;
+  color: rgb(19, 19, 233);
+}
+#discord {
+  background-color: rgb(45, 45, 247);
+  border: 1px solid rgb(45, 45, 247);
+  color: white;
+}
+#discord:hover {
+  background-color: white;
+  color: rgb(45, 45, 247);
+}
+
+.EcardBottom {
+  padding-top: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.EcardBottom h1 {
+  width: 100%;
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.EcardBottom > span {
+  background-color: transparent;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: #99a0a6;
+  margin-bottom: 8px;
+}
+
+.EcardBottom > button {
+  padding: 16px 10px 16px 16px;
+  background-color: #c19ce8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.EcardBottom > button:hover {
+  background-color: white;
+  color: rgb(167, 98, 199);
+}
+.usd,
+.participants {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.usd {
+  margin-bottom: 8px;
+}
+
+.participants {
+  margin-bottom: 8px;
+}
+
+.usd p,
+.participants p {
+  background-color: transparent;
+  font-size: 18px;
+  /* margin-top: 3px; */
+  text-align: left;
+}
+
+.usd p {
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.usd span,
+.participants span {
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.EcardBottom div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.protocol img {
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 1350px) {
+  /* .Ecards{
+    width: 90%;
+    
+  } */
+}
+
+@media only screen and (max-width: 1250px) {
+  .Ecards {
+    width: 84%;
+    column-gap: 25px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .Ecards {
+    width: auto;
+    padding: 0px 60px;
+    overflow-x: auto;
+    column-gap: 23px;
+  }
+  .Ecard {
+    width: 324px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .EasyAccessProjects h1 {
+    width: 85%;
+    /* margin: auto; */
+  }
+
+  .EasyAccessProjects p {
+    width: 85%;
+    margin: auto;
+  }
+
+  .Ecards {
+    width: auto;
+    padding: 0px 20px 0px 0px;
+    margin: 20px auto;
+    overflow-x: auto;
+    column-gap: 15px;
+  }
+
+  .Ecards::-webkit-scrollbar {
+    width: 0;
+  }
+  .Ecard {
+    padding: 12px;
+  }
+
+  .pad-card {
+    padding: 12px;
+  }
+
+  .EasyAccessProjects .Ecards .Ecard {
+    min-width: 300px;
+    /* margin-right: 15px; */
+  }
+  .Ecards .Ecard:first-child {
+    margin-left: 20px;
+  }
+
+  .usd p,
+  .participants p {
+    margin: 0;
+  }
+
+  .EcardBottom h1 {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .EasyAccessProjects h1 {
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .EasyAccessProjects p {
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .Ecards {
+    column-gap: 8px;
+  }
+
+  .EasyAccessProjects .Ecards .Ecard {
+    width: 280px;
+    min-width: 280px;
+    padding: 8px;
+  }
+
+  .Ecards .Ecard:first-child {
+    margin-left: 14px;
+  }
+
+  .pad-card {
+    padding: 8px;
+  }
+
+  .EcardTop .img {
+    height: 130px;
+  }
+
+  .usd P {
+    margin: auto 0px;
+  }
+  .participants p {
+    margin: auto 0px;
+  }
+  .easy-p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .EasyAccessProjects {
+    margin-bottom: 230px;
+    margin-top: 250px;
+  }
+  .EasyAccessProjects .Ecards .Ecard {
+    width: 240px;
+    min-width: 240px;
+  }
+
+  .Ecards {
+    column-gap: 8px;
+  }
+
+  .EcardTop .img {
+    height: 121px;
+  }
+
+  .imgBottom img {
+    width: 64px;
+    height: 64px;
+    top: -35px;
+  }
+
+  .socialLinks .icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+  }
+
+  .Ecards .Ecard:first-child {
+    margin-left: 10px;
+  }
+
+  .easy-p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .Ecards {
+    width: 72%;
+    max-width: 1038px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    column-gap: 33px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .Ecards {
+    width: 72%;
+    max-width: 1038px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    column-gap: 33px;
+  }
+
+  /* .EasyAccessProjects p{
+    width: 72%; 
+  }
+  
+  .Ecard{ 
+    position: relative;
+    height: 100%;
+  
+  }
+
+  .pad-card{
+    height: 100%;
+  }
+
+  .EcardTop .img{
+    height: 200px;
+  }
+
+  .img img{
+    height: 100%;
+    object-fit: cover;
+  } */
+}
+
+@media only screen and (min-width: 1800px) {
+  /* .socialLinks .icon{
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+  } */
+
+  /* .Ecards{
+    width: 72%;
+  }
+
+ 
+  .EasyAccessProjects p{
+    width: 72%;
+  }
+
+  .EcardBottom h1{
+    font-size: 40px;
+  }
+
+  .EcardBottom span{
+    font-size: 20px;
+  }
+
+  .EcardBottom p{
+    font-size: 24px;
+  }
+
+  .EcardBottom button{
+    font-size: 20px;
+    padding: 20px 10px 20px 20px;
+  }
+
+  .protocol img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .EcardTop .img > span{
+    font-size: 18px;
+  } */
+}
+
+/* @media only screen and (min-width: 2000px){
+  .Ecards{
+    width: 72%;
+    
+  }
+
+  .EasyAccessProjects h1{
+    font-size: 48px;
+  }
+
+
+
+  .EcardTop .img{
+    height: 260px;
+  }
+
+  .img img{
+    height: 100%;
+  }
+
+  .EcardBottom h1{
+    font-size: 40px;
+  }
+
+} */
